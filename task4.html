@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-2 | Task-4</title>
+  </head>
+  <body>
+    <script>
+      const url = 'https://jsonplaceholder.typicode.com/posts';
+
+      const fetchData = async (url) => {
+        try {
+          const response = await fetch(url);
+          const data = await response.json();
+          console.log(data);
+          document.write(JSON.stringify(data));
+        } catch (error) {
+          console.log(error);
+        }
+      };
+      fetchData(url);
+    </script>
+  </body>
+</html>
