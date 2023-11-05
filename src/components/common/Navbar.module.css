@@ -1,0 +1,16 @@
+nav {
+  padding: 12px 0;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li a {
+  display: block;
+  font-size: 1.2rem;
+  padding: 15px 16px;
+}
+ul li a:hover {
+  color: #f8636b;
+}
