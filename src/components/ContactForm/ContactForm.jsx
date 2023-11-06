@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './ContactForm.css';
 
 const ContactForm = () => {
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
   return (
     <div className="contact-form">
       <div className="contact-info">
@@ -27,6 +32,7 @@ const ContactForm = () => {
           }}>
           <div>
             <input
+              ref={inputRef}
               type="text"
               placeholder="Name"
             />

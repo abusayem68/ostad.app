@@ -1,6 +1,7 @@
 import './Blog.css';
 
-const Blog = () => {
+const Blog = ({ blog }) => {
+  const { title, body } = blog || {};
   return (
     <div className="blog">
       <a href="">
@@ -12,7 +13,7 @@ const Blog = () => {
         </div>
       </a>
       <h2>
-        <a href="">Lorem ipsum dolor sit amet</a>
+        <a href="">{title}</a>
       </h2>
     </div>
   );
