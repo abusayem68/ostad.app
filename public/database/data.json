@@ -1,0 +1,214 @@
+{
+  "workList": [
+    {
+      "title": "Grow Your Business",
+      "description": "We help identify the best ways to improve your business",
+      "imgAlt": "activity",
+      "img": "/assets/images/worklist/Activity.svg",
+      "link": "#"
+    },
+    {
+      "title": "Improve Business Model",
+      "description": "We help identify the best ways to improve your business",
+      "imgAlt": "heart",
+      "img": "/assets/images/worklist/Heart.svg",
+      "link": "#"
+    },
+    {
+      "title": "Improve brand loyalty",
+      "description": "We help identify the best ways to improve your business",
+      "imgAlt": "workLogo",
+      "img": "/assets/images/worklist/Work.svg",
+      "link": "#"
+    }
+  ],
+  "featuredProducts": [
+    {
+      "title": "App Redesign",
+      "category": "App Design",
+      "date": "June 20, 2022",
+      "img": "/assets/images/featured-product/app-design.png"
+    },
+    {
+      "title": "Redesign channel website landng page",
+      "category": "App Design",
+      "date": "June 20, 2022",
+      "img": "/assets/images/featured-product/channel-landing-page.png"
+    },
+    {
+      "title": "Redesign channel website landng page",
+      "category": "App Design",
+      "date": "June 20, 2022",
+      "img": "/assets/images/featured-product/channel-landing-page-2.png"
+    },
+    {
+      "title": "Redesign channel website landng page",
+      "category": "App Design",
+      "date": "June 20, 2022",
+      "img": "/assets/images/featured-product/channel-landing-page-3.png"
+    },
+    {
+      "title": "Redesign channel website landng page",
+      "category": "App Design",
+      "date": "June 20, 2022",
+      "img": "/assets/images/featured-product/channel-landing-page-4.png"
+    }
+  ],
+  "counters": [
+    {
+      "category": "Followers",
+      "total": 240452,
+      "img": "/assets/images/statlist/Group-3.svg"
+    },
+    {
+      "category": "Solved Problems",
+      "total": 6300,
+      "img": "/assets/images/statlist/Like.svg"
+    },
+    {
+      "category": "Happy Customers",
+      "total": 25000,
+      "img": "/assets/images/statlist/Happy.svg"
+    },
+    {
+      "category": "Projects",
+      "total": 360452,
+      "img": "/assets/images/statlist/Scan 3.svg"
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "Devon Lane",
+      "img": "/assets/images/team-members/Devon-Lane.png",
+      "socialLink": {
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "Danny Bailey",
+      "img": "/assets/images/team-members/Danny-Bailey.png",
+      "socialLink": {
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+      }
+    },
+    {
+      "name": "Alex Lov",
+      "img": "/assets/images/team-members/Alex-Lov.png",
+      "socialLink": {
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+      }
+    }
+  ],
+  "services": [
+    {
+      "title": "Build & Launch without problems",
+      "subTitle": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+      "images": [
+        "/assets/images/services/service-1/img-1.png",
+        "/assets/images/services/service-1/img-2.png",
+        "/assets/images/services/service-1/img-3.png",
+        "/assets/images/services/service-1/img-4.png"
+      ]
+    },
+    {
+      "title": "Build & Launch without problems",
+      "subTitle": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+      "images": [
+        "/assets/images/services/service-2/img-1.png",
+        "/assets/images/services/service-2/img-2.png",
+        "/assets/images/services/service-2/img-3.png",
+        "/assets/images/services/service-2/img-4.png"
+      ]
+    },
+    {
+      "title": "Build & Launch without problems",
+      "subTitle": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+      "images": [
+        "/assets/images/services/service-3/img-1.png",
+        "/assets/images/services/service-3/img-2.png",
+        "/assets/images/services/service-3/img-3.png",
+        "/assets/images/services/service-3/img-4.png"
+      ]
+    },
+    {
+      "title": "Build & Launch without problems",
+      "subTitle": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+      "images": [
+        "/assets/images/services/service-4/img-1.png",
+        "/assets/images/services/service-4/img-2.png",
+        "/assets/images/services/service-4/img-3.png",
+        "/assets/images/services/service-4/img-4.png"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Lorem ipsum dolor sit consectutar",
+      "img": "/assets/images/projects/project-1.png"
+    },
+    {
+      "title": "Lorem ipsum dolor sit consectutar",
+      "img": "/assets/images/projects/project-2.png"
+    },
+    {
+      "title": "Lorem ipsum dolor sit consectutar",
+      "img": "/assets/images/projects/project-3.png"
+    },
+    {
+      "title": "Lorem ipsum dolor sit consectutar",
+      "img": "/assets/images/projects/project-4.png"
+    },
+    {
+      "title": "Lorem ipsum dolor sit consectutar",
+      "img": "/assets/images/projects/project-5.png"
+    },
+    {
+      "title": "Lorem ipsum dolor sit consectutar",
+      "img": "/assets/images/projects/project-6.png"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Alice Bradley",
+      "profession": "Backend Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+      "profileImg": "../assets/images/testimonials/profile-1.png"
+    },
+    {
+      "name": "Alice Bradley",
+      "profession": "Backend Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+      "profileImg": "../assets/images/testimonials/profile-2.png"
+    },
+    {
+      "name": "Alice Bradley",
+      "profession": "Backend Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+      "profileImg": "../assets/images/testimonials/profile-3.png"
+    },
+    {
+      "name": "Alice Bradley",
+      "profession": "Backend Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+      "profileImg": "../assets/images/testimonials/profile-4.png"
+    },
+    {
+      "name": "Alice Bradley",
+      "profession": "Backend Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+      "profileImg": "../assets/images/testimonials/profile-5.png"
+    },
+    {
+      "name": "Alice Bradley",
+      "profession": "Backend Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+      "profileImg": "../assets/images/testimonials/profile-6.png"
+    }
+  ]
+}
