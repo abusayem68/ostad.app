@@ -1,4 +1,8 @@
 import { Link } from 'react-router-dom';
+import facebookIcon from '../../assets/images/social-icons/facebook.svg';
+import twitterIcon from '../../assets/images/social-icons/twitter.svg';
+import linkedInIcon from '../../assets/images/social-icons/linkedIn.svg';
+import instagramIcon from '../../assets/images/social-icons/instagram.svg';
 
 const Footer = () => {
   return (
@@ -20,24 +24,24 @@ const Footer = () => {
             <li>
               <Link to="#">
                 <img
-                  src="/src/assets/images/social-icons/facebook.svg"
-                  alt=""
+                  src={facebookIcon}
+                  alt="facebook"
                 />
               </Link>
             </li>
             <li>
               <Link to="#">
                 <img
-                  src="/src/assets/images/social-icons/twitter.svg"
-                  alt=""
+                  src={twitterIcon}
+                  alt="twitter"
                 />
               </Link>
             </li>
             <li>
               <Link to="#">
                 <img
-                  src="/src/assets/images/social-icons/linkedIn.svg"
-                  alt=""
+                  src={linkedInIcon}
+                  alt="linkedIn"
                 />
               </Link>
             </li>
@@ -45,8 +49,8 @@ const Footer = () => {
               <Link to="#">
                 <div className="p-3 bg-[#20B15A] rounded-full">
                   <img
-                    src="/src/assets/images/social-icons/instagram.svg"
-                    alt=""
+                    src={instagramIcon}
+                    alt="instagram"
                   />
                 </div>
               </Link>
