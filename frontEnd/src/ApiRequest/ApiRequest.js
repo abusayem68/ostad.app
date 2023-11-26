@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 
 export async function CreateStudentRequest(postBody) {
   try {
@@ -83,24 +83,3 @@ export async function UpdateStudentRequest(postBody, id) {
     return false;
   }
 }
-
-/*
-
-export function DeleteRequest(id) {
-  let URL = "http://localhost:5111/api/v1/DeleteProduct/" + id;
-  return axios
-    .get(URL)
-    .then((res) => {
-      if (res.status === 200) {
-        return true;
-      } else {
-        return false;
-      }
-    })
-    .catch((err) => {
-      console.log(err);
-      return false;
-    });
-}
-
-*/

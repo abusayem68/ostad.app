@@ -1,40 +1,46 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 import {
   DeleteStudentRequest,
   ReadStudentsRequest,
 } from '../../ApiRequest/ApiRequest';
-import toast, { Toaster } from 'react-hot-toast';
-import { Link } from 'react-router-dom';
 
 function StudentList() {
   const [studentList, setStudentList] = useState([]);
-  const [count, setCount] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isDeleted, setIsDeleted] = useState(false);
   useEffect(() => {
     (async () => {
+      setIsLoading(true);
       let res = await ReadStudentsRequest();
       setStudentList(res['data']);
-      console.log(studentList);
+      setIsLoading(false);
     })();
-  }, [count]);
+  }, [isDeleted]);
 
   const deleteStudent = async (id) => {
     let res = await DeleteStudentRequest(id);
     if (res) {
-      setCount(count + Date.now());
       toast.success(`Data deleted successfully`);
+      setIsDeleted(!isDeleted);
     } else {
       toast.error(`Anything wrong .`);
     }
   };
 
-  if (studentList?.length === 0) {
-    return (
+  // decide what to render
+  let content = '';
+  if (isLoading)
+    content = (
       <div>
         <h1>Loading.....</h1>
       </div>
     );
-  } else {
-    return (
+  else if (!isLoading && studentList && studentList.length === 0)
+    content = <div>Not found any data</div>;
+  else if (!isLoading && studentList && studentList.length > 0)
+    content = (
       <>
         <div className="student-list overflow-x-auto my-10 px-28 ">
           <table className="table ">
@@ -104,7 +110,8 @@ function StudentList() {
         />
       </>
     );
-  }
+
+  return <>{content}</>;
 }
 
 export default StudentList;
